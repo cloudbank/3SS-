@@ -9,7 +9,7 @@ may vary.  Instead, I keep track of each fingerprint's set bit count using MIT's
 map structure.  This changes an O(n) db search for each image into an O((epsilon * 2)+1) number of constant time checks in the map.
 Since epsilon is usually quite small (~2), it is constant amount of work for each image.
 This is still in the experimental phase and under development.
-Available in C++ and Kotlin.
+
 
 
 
