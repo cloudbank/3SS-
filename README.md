@@ -1,5 +1,7 @@
 # 3SS2B ©
 
+<img src="https://i.imgur.com/IXfmfzl.png" height="250"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
 An Android dhash algorithm that uses 3SS to do NN, greyscale, and fingerprint in one pass, and match images for similarity using
 a modified Hamming distance algorithm.
 Traditionally the epsilon would be found in practice by calculating XOR of two fingerprints and setting a bound on how many set bits 
@@ -19,7 +21,6 @@ Available in C++ and Kotlin.
 * Kotlin dHash: 
 
 
-<img src="" height="250"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 ## License
 
