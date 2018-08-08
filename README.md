@@ -2,9 +2,9 @@
 
 <img src="https://i.imgur.com/TDBAdNR.png" height="250"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-An Android dhash algorithm that uses 3SS to do NN, greyscale, and fingerprint in one pass, and match images for similarity using a modified Hamming distance algorithm. Since we are using a modified dhash, it works for scale and aspect ratio changes already.  Similarity would be defined by something like color or contrast changes.  I am experimenting to see how I can corelate two hashes as such.  I also may try to incorporate checks for rotation by obtaining additional fingerprints.
+An Android image fingerptint algorithm that uses 3SS to do downsize, greyscale, and fingerprint in one pass, and match images for similarity or distortion. Since we are using a modified dhash, it works for scale and aspect ratio changes already.  Similarity could also be defined by something like color or contrast changes.  I am experimenting to see how I can corelate two hashes as such using FMIQ, Haar transform, Radon fingerprinting, or Deep Autoencoders within Android.  I also may try to incorporate checks for rotation by obtaining additional fingerprints.
 
-I use bit filtering techniques such as bit count in a garbage free map structure and/or a bloom filter for exclusion. In any   dataset that can get a hash to match duplicates, this changes an O(n) search to one on O((epsilon * 2)+1) buckets in the map, or across that many rows in the db.  Since epsilon is usually quite small (~2), it is potentially constant amount of work for each image. This is still in the experimental phase and under development, and hopefully the data will be turn out to be compatible on average.
+This is still in the experimental phase and under development, and hopefully the data will be turn out to be compatible on average.
 
 
 
